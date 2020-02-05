@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <body  bgcolor="#F0F8FF" text="black">
-
-
- <h1>Palindrome Checker</h1>
-<h3>Enter any Number:</h3> <input id="Palindrome_no"><br>
-<button onclick="palindromefunc()">
-  <script>
+   <h1>Palindrome Checker</h1>
+   <h3>Enter any Number:</h3> <input id="Palindrome_no"><br>
+   <button onclick="palindromefunc()">
+<script>
   function palindromefunc()
   {
-  var a,num,b,temp=0;
+  let a,num,b,temp=0;
   num=Number(document.getElementById("Palindrome_no").value);
   b=num;
   while(num>0)
@@ -29,8 +26,7 @@
   alert("Sorry, that's not a Palindrome.");
   }
   }
-  </script>
-<h4>Check</h4></button></br></br>
+</script>
+    <h4>Check</h4></button></br></br>
 </body>
-
 </html>
